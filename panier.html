@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panier</title>
+    <title>accueil</title>
 </head>
 <body>
     <header>
         <div>
             <img src="logo.png" alt="logo">
         </div>        
-        <nav role="navigation">
+        <nav>
             <ul>
                 <li><a href="accueil.html">Accueil</a></li>
                 <li><a href="boutique">Boutique</a></li>
-                <ul>
-                  
-                    <li><a href="boutique1">Boutique 1</a></li>
-                    <li><a href="boutique2">Boutique 2</a></li>
-                </ul>
+            </ul>
                 
-                
-                   
+            <ul>
+                <li><a href="boutique1">Boutique 1</a></li>
+                <li><a href="boutique2">Boutique 2</a></li>
+            </ul>
+            <ul>                  
                 <li><a href="contact.html">Contact</a></li>
             </ul>           
         </nav>
@@ -29,7 +28,7 @@
     <!--Fin du Header-->
     <h2>Panier</h2>
     <div>
-        <form name="panier" method="GET"></form>
+        <form name="panier" method="GET">
         <table>
             <tr>
             <th>Produits</th>
@@ -39,25 +38,25 @@
             </tr>
             <tr>
                 <td>banane</td>
-                <td><button type="number" name="-">-<button type="number" name="+">+</button></td>
+                <td><button type="button" name="moins">-</button><button type="button" name="plus">+</button></td>
                 <td>1</td>
                 <td>1</td>               
             </tr>
             <tr>
                 <td>marcel</td>
-                <td><button type="number" name="-">-<button type="number" name="+">+</button></td>
+                <td><button type="button" name="moins">-</button><button type="button" name="plus">+</button></td>
                 <td>1</td>
                 <td>1</td>
             </tr>
             <tr>
                 <td>claquettes</td>
-                <td><button type="number" name="-">-<button type="number" name="+">+</button></td>
+                <td><button type="button" name="moins">-</button><button type="button" name="plus">+</button></td>
                 <td>1</td>
                 <td>1</td>
             </tr>
             <tr>
                 <td>chaussettes</td>
-                <td><button type="number" name="-">-<button type="number" name="+">+</button></td>
+                <td><button type="button" name="moins">-</button><button type="button" name="plus">+</button></td>
                 <td>1</td>
                 <td>1</td>
             </tr>           
@@ -85,14 +84,10 @@
                 <li><a href="cgv">CGV</a></li>
                 <li><a href="mentions">Mentions légales</a></li>
             </ul>
-
         </div>
         <div class="col3" id="col3"></div>
-            <ul>
-               <p><a href="https://fr-fr.facebook.com/" target="blank"><img src="imageFb.jpg" alt="facebook"></a></p>
-               <p><a href="https://www.intagram.fr" target="blank"><img src="imageIsta.jpg" alt="instagram"></a></p>
-            </ul>
-    </footer>
-    
+               <a href="https://fr-fr.facebook.com/" target="blank"><img src="imageFb.jpg" alt="facebook"></a>
+               <a href="https://www.intagram.fr" target="blank"><img src="imageIsta.jpg" alt="instagram"></a>
+    </footer>     
 </body>
 </html>
